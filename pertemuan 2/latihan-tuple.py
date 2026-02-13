@@ -15,7 +15,7 @@ print(dosen)
 """ sks pada tuple dosen berubah setelah diubah saat tuple
 dikonversi menjadi list kemudian diganti elemennya, kemudian list tadi 
 dikonversi kembali menjadi tuple. tuple mestilah diubah menjadi list dahulu 
-karena elemen tuple tak dapat diubah alias unmuteamble.
+karena elemen tuple tak dapat diubah alias immuteamble.
 """
 """kelebihan tuple adalah element tuple itu tak dapat diubah jadi 
 dapat digunakan sebagai nilai pasti di dalam kode, namun list dapat diubah ubah."""
