@@ -2,7 +2,7 @@ import kurs as krs
 
 def convert():
     mata_uang1 = "".join(input("Dari (IDR/USD/EUR/SGD/JPY): ").split()).upper()
-    mata_uang2 = "".join(input("Ke (IDR/USD/EUR/SGD/JPY): ").split()).upper()
+    mata_uang2 = "".join(input("Ke   (IDR/USD/EUR/SGD/JPY): ").split()).upper()
     jumlah = int(input("Jumlah: "))
 
     idr = jumlah * krs.kurs_inInt[mata_uang1]
